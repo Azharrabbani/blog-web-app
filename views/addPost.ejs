@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+
+<div class="image-bg-post">
+    <div class="center-text">
+        <h1 class="text">Lets Create Your Blog</h2>
+        <p class="text">Insert what you want write</p>
+    </div>
+</div>
+
+<form action="/submit-post" method="POST" class="container my-5 col-6">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" name="title">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Enter your thought</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="description"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Post Blog">
+</form>
+
+<%- include('partials/footer.ejs') %>

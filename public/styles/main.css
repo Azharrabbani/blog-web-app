@@ -26,13 +26,12 @@ nav{
     border-radius: 2rem;
 }
 
-.container{
-    width: 10rem;
-}
 
 .card-text{
     text-align: justify;
 }
+
+
 
 .image-bg{
     background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg');
@@ -45,6 +44,14 @@ nav{
 .image-bg-contact{
     background-image: url('https://accessnsite.com/wp-content/uploads/2020/05/page-heading-background-contact-us.jpg');
     height: 19rem; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image-bg-post{
+    background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
+    height: 22rem; 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -79,14 +86,14 @@ nav{
     border-radius: 1rem;
 }
 
+
 .bg-content{
-    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg');
     background-size: cover;
     background-position: center;
     height: 12rem;
     border-radius: 10px;
-    
 }
+
 
 .lead{
     text-align: justify;
@@ -187,4 +194,8 @@ nav{
     display: flex;
     flex-direction: column;
     min-height: 90vh;
-  }
+}
+
+.text{
+    color: rgb(26, 121, 165);
+}
