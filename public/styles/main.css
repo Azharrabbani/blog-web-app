@@ -42,6 +42,13 @@ nav{
     position: relative;
 }
 
+.image-bg-contact{
+    background-image: url('https://accessnsite.com/wp-content/uploads/2020/05/page-heading-background-contact-us.jpg');
+    height: 19rem; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
 
 .center-text{
@@ -135,5 +142,49 @@ nav{
     display: table-cell;
 }
 
+.contact-box{
+    width: 30rem;
+    padding-top: 3rem;
+    text-align: center;
+    display: table-cell;
+    background-color: #ffffff;
+}
 
+.contact-section{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 9rem;
+}
 
+.contact-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 4rem;
+    background-color: #25D366;
+    border-radius: 12px;
+}
+
+.contact-detail:hover{
+    background-color: #14c756;
+}
+
+.gmail-color{
+    background-image: linear-gradient(to bottom right,#3e65cf, #c71610);
+}
+
+.gmail-color:hover{
+    background-image: linear-gradient(to bottom right,#c71610, #3e65cf);
+
+}
+
+.main{
+    flex: 1;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
