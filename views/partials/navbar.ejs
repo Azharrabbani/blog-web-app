@@ -1,14 +1,20 @@
-<nav class="topnav position-sticky top-0 z-1" id="navbar">
-    <div class="blog-name">
-        <li><img src="/assets/cat.jpg" alt="blog-icon" class="blog-icon"></li>
-        <li>Zarexo_o Blog</li>
-        <li><a class="navbar-menu hover-icon" href="/">Home</a></li>
-        <li><a class="navbar-menu hover-icon" href="/about-me">About Me</a></li>
-        <li><a class="navbar-menu hover-icon" href="/contact">Contact</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+<header class="p-3 text-bg-dark">
+    <div class="container position-sticky">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
-    </div>
 
-    <li><a href="/add-post"><input type="submit" value="Add Post" class="btn btn-primary"></a></li>
-</nav>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 gap-1">
+            <li><img src="assets/cat.jpg" alt="cat.icon" width="40" class="rounded-circle"></li>
+          <li><a href="/" class="nav-link px-2 text-white hover-icon">Home</a></li>
+          <li><a href="/about-me" class="nav-link px-2 text-white hover-icon">About Me</a></li>
+          <li><a href="/contact" class="nav-link px-2 text-white hover-icon">Contact</a></li>
+        </ul>
+
+        <div class="text-end">
+          <a href="/add-post" class="btn btn-warning">Add Post</a>
+        </div>
+      </div>
+    </div>
+  </header>
