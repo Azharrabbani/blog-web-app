@@ -1,10 +1,13 @@
-<nav class="position-sticky top-0 z-1">
+<nav class="topnav position-sticky top-0 z-1" id="navbar">
     <div class="blog-name">
         <li><img src="/assets/cat.jpg" alt="blog-icon" class="blog-icon"></li>
         <li>Zarexo_o Blog</li>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about-me">About Me</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a class="navbar-menu hover-icon" href="/">Home</a></li>
+        <li><a class="navbar-menu hover-icon" href="/about-me">About Me</a></li>
+        <li><a class="navbar-menu hover-icon" href="/contact">Contact</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <li><a href="/add-post"><input type="submit" value="Add Post" class="btn btn-primary"></a></li>

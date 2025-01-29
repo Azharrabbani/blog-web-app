@@ -15,7 +15,18 @@ nav{
     height: 8vh;
 }
 
-.blog-name{
+.navbar-menu{
+    text-decoration: none;
+    color: #000000;
+}
+
+.hover-icon:hover{
+    border-bottom: 2px solid  #1bfdcca9;
+    padding-bottom: 5px;
+
+}
+
+.blog-name {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -107,7 +118,7 @@ nav{
 }
 
 .icon-link-hover{
-    color: rgb(5, 134, 134);
+    color: #058686;
     text-decoration: none;
 }
 
