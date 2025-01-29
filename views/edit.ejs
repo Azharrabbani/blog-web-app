@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+<div class="image-bg-edit">
+    <div class="center-text">
+        <h1 class="text-edit">Lets Edit Your Blog</h2>
+        <p class="text-edit">Insert what you want to change</p>
+    </div>
+</div>
+
+<form action="/edit-post/<%= post.id %>" method="POST" class="container my-5 col-6">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" name="title" value="<%= post.title %>">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Enter your thought</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="description"><%= post.desc %></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Update">
+</form>
+
+<%- include('partials/footer.ejs') %>
+
+
+  

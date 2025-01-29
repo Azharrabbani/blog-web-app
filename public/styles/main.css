@@ -57,6 +57,14 @@ nav{
     position: relative;
 }
 
+.image-bg-edit{
+    background-image: url('https://img.freepik.com/free-photo/minimalistic-home-desk-design_23-2148991431.jpg?semt=ais_hybrid');
+    height: 22rem; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 
 .center-text{
     position: absolute;
@@ -88,8 +96,7 @@ nav{
 
 
 .bg-content{
-    background-size: cover;
-    background-position: center;
+    width: 100%;
     height: 12rem;
     border-radius: 10px;
 }
@@ -111,7 +118,6 @@ nav{
 #skills{
     width: 100%;
     height: auto;
-    position: relative;
     background-color: #004675;
 }
 
@@ -197,5 +203,9 @@ nav{
 }
 
 .text{
-    color: rgb(26, 121, 165);
+    color: #1a79a5;
+}
+
+.text-edit{
+    color: #41ff71;
 }

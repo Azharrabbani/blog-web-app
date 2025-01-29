@@ -1,0 +1,26 @@
+<div class="content-wrapper">
+    <%- include('partials/header.ejs') %>
+    <%- include('partials/navbar.ejs') %>
+
+    <!-- <div class="container my-5" style="width: 50%;">
+        <h1><%= post.title %></h1>
+        <div class="d-flex justify-content-center">
+            <img src="https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="blog image" class="bg-content w-75 my-4" style="max-height: 100%;">
+        </div>
+        <p><%= post.desc %></p>
+    </div> -->
+
+    <div class="container col-10" style="margin-top: -3rem;">
+        <div class="px-4 py-5 my-5">
+            <h1 class="display-5 fw-medium text-body-emphasis text-start mb-4"><%= post.title %></h1>
+            <img class="d-block mx-auto my-4 rounded-4" width="600" height="300" src="https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="" >
+            <div class="mx-auto mt-5">
+              <p class="lead mb-4 text-start"><%= post.desc %></p>
+            </div>
+          </div>
+
+    </div>
+
+</div>
+<%- include('partials/footer.ejs') %>
+
