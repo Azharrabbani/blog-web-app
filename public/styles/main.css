@@ -180,7 +180,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30rem;
+    width: 100%;
     height: 4rem;
     background-color: #25D366;
     border-radius: 12px;
@@ -188,6 +188,42 @@ nav{
 
 .contact-detail:hover{
     background-color: #14c756;
+}
+
+@media screen and (max-width: 900px){
+    #contact{
+        position: static !important;
+        height: 90vh;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        top: 97%;
+        gap: 20px;
+    }
+
+    .contact-box{
+        width: 100rem;
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .contact-box{
+        width: 100rem;
+    }
+
+    .contact-section{
+        padding: 20px;
+    }
+
+    .contact-detail{
+        text-align: center;
+    }
+
 }
 
 .gmail-color{
