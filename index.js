@@ -48,11 +48,6 @@ app.post('/submit-post', (req, res) => {
     const title = req.body.title;
     const desc = req.body.description;
     const id = Date.now().toString();
-
-    console.log(title)
-    console.log(desc)
-    console.log(id)
-
     blog.push({id, title, desc});    
     res.redirect('/');
 });
