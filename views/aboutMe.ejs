@@ -3,8 +3,8 @@
 <%- include('partials/navbar.ejs') %>
 
 <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
+    <div class="row flex-sm-column flex-md-column flex-lg-row align-items-center justify-content-center g-5 py-5">
+      <div class="col-10 col-sm-10 col-md-8 col-lg-6">
         <img src="./assets/My-Photo.png" class="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="450" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
@@ -14,7 +14,7 @@
             I began coding when I started university in 2022, and since then, I have developed a strong love for programming, especially in the field of Software Engineering.
             For me, coding is not just about solving problems but also about creating useful technologies that can benefit future generations.
         </p>
-        <div class="d-grid gap-4 d-md-flex justify-content-md-start">
+        <div class="d-grid gap-4 d-flex justify-content-md-start">
             <a class="icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.instagram.com/eastzarx?igsh=dWFuanl0amJzb2Ew&utm_source=qr" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
@@ -36,120 +36,147 @@
   </div>
 
 
-<section id="skills">
+  <section id="skills">
     <h1>My Skills</h1>
     
-    <div class="feature container px-4 py-5 d-flex" id="featured-3">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="Python-language-icon" width="50">
+    <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    
+                    
+                    <div class="carousel-item active">
+                        <div class="row text-center row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">Python</h3>
+                                <p class="text-light text-opacity-75">Strong backend development skills, experienced in building scalable applications using Django.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://academy.alterra.id/blog/wp-content/uploads/2021/06/java.png" alt="Java" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">Java</h3>
+                                <p class="text-light text-opacity-75"> Proficient in Object-Oriented Programming (OOP) and application development.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">C++</h3>
+                                <p class="text-light text-opacity-75">Efficient in system-level programming, focusing on performance-critical applications.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="carousel-item">
+                        <div class="row text-center row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">HTML</h3>
+                                <p class="text-light text-opacity-75">Expert in structured and semantic web design.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo.png" alt="CSS" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">CSS</h3>
+                                <p class="text-light text-opacity-75">Skilled in creating responsive and visually appealing UI designs.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y" alt="Javascript-language-icon" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">JavaScript</h3>
+                                <p class="text-light text-opacity-75">Skilled in developing dynamic web applications and handling asynchronous programming.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="carousel-item">
+                        <div class="row text-center row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png" alt="MySQL" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">MySQL</h3>
+                                <p class="text-light text-opacity-75">Experienced in managing structured data and optimizing queries.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">PostgreSQL</h3>
+                                <p class="text-light text-opacity-75">Skilled in handling complex queries and utilizing JSON support for flexibility.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">Bootstrap</h3>
+                                <p class="text-light text-opacity-75">Experienced in building modern, responsive layouts quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row text-center row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://www.veryicon.com/download/png/business/vscode-program-item-icon/django-1?s=256" alt="Django-framework-icon" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">Django</h3>
+                                <p class="text-light text-opacity-75">Strong understanding of MVC architecture and relational database management.</p>
+                            </div>
+                            <div class="col">
+                              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NodeJS" width="50">
+                              </div>
+                              <h3 class="fs-2 text-light">NodeJS</h3>
+                              <p class="text-light text-opacity-75">Proficient in building non-blocking, event-driven server-side applications.</p>
+                            </div>
+                            <div class="col">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
+                                    <img src="https://img.icons8.com/color/512/express-js.png" alt="ExpressJS-framework-icon" alt="PostgreSQL" width="50">
+                                </div>
+                                <h3 class="fs-2 text-light">ExpressJS</h3>
+                                <p class="text-light text-opacity-75">Efficient in designing RESTful APIs and handling backend logic.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <h3 class="fs-2 text-light">Python</h3>
-            <p class="pt-1 text-light text-opacity-75">I have a strong understanding of Python, including its use in backend development.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://academy.alterra.id/blog/wp-content/uploads/2021/06/java.png" alt="Java-language-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">Java</h3>
-            <p class="pt-1 text-light text-opacity-75">I have studied Java extensively, focusing on object-oriented programming and building robust applications.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++-language-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">C++</h3>
-            <p class="pt-1 text-light text-opacity-75">I have learned C++ to develop efficient, performance-critical applications, particularly in system-level programming.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">HTML</h3>
-            <p class="pt-1 text-light text-opacity-75">I have mastered HTML, utilizing it to create structured and semantic web pages.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo.png" alt="css-icon" width="80">
-            </div>
-            <h3 class="fs-2 text-light">CSS</h3>
-            <p class="pt-1 text-light text-opacity-75">I have studied CSS to design visually appealing and responsive web interfaces.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y" alt="Javascript-language-icon" width="80">
-            </div>
-            <h3 class="fs-2 text-light">Javascript</h3>
-            <p class="pt-1 text-light text-opacity-75">I have a solid foundation in JavaScript, using it to build interactive and dynamic web applications.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png" alt="Mysql-db-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">MYSQL</h3>
-            <p class="pt-1 text-light text-opacity-75">I have experience working with MySQL for creating and managing relational databases.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="PostgreSQL-db-icon" width="48">
-            </div>
-            <h3 class="fs-2 text-light">PostgreSQL</h3>
-            <p class="pt-1 text-light text-opacity-75">I have learned PostgreSQL to design scalable databases with advanced features like JSON and full-text search.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="bootstrap-framework-icon" width="48">
-            </div>
-            <h3 class="fs-2 text-light">Bootstrap</h3>
-            <p class="pt-1 text-light text-opacity-75">I am proficient in using Bootstrap to create responsive and modern web designs.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://www.veryicon.com/download/png/business/vscode-program-item-icon/django-1?s=256" alt="Django-framework-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">Django</h3>
-            <p class="pt-1 text-light text-opacity-75">I have explored Django for building secure, scalable, and feature-rich web applications.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="NodeJS-framework-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">NodeJS</h3>
-            <p class="pt-1 text-light text-opacity-75">I have studied NodeJS to develop efficient, non-blocking server-side applications.</p>
-        
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-white bg-gradient fs-2 mb-3 rounded-circle">
-              <img src="https://img.icons8.com/color/512/express-js.png" alt="ExpressJS-Framework-icon" width="50">
-            </div>
-            <h3 class="fs-2 text-light">ExpressJS</h3>
-            <p class="pt-1 text-light text-opacity-75">I have worked with ExpressJS to create RESTful APIs and streamline backend development.</p>
-        
-          </div>
         </div>
-      </div>
+    </div>
 </section>
+
 
 
 <section id="project">
     <h1>My Project</h1>
 
     <div class="container d-flex mt-5 justify-content-center">
-        <div class="content row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="content row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-5">
             <div class="container-content">
-                <div class="card-project pb-4" style="width: 23rem;">
-                    <div class="project-bg"><img src="./assets/creovate.png" alt="creovate" width="380"></div>
+                <div class="card-project pb-4" style="width: 100%;">
+                    <div class="project-bg"><img src="./assets/creovate.png" alt="creovate" width="100%"></div>
                     <div class="card-body px-4 pt-3">
                       <h5 class="text-center">Creovate</h5>
                       <p class="card-text">
@@ -167,8 +194,8 @@
                   </div>
             </div>
             <div class="container-content">
-                <div class="card-project pb-4" style="width: 23rem;">
-                    <div class="project-bg"><img src="./assets/msd.png" alt="E-Book MSD" width="370"></div>
+                <div class="card-project pb-4" style="width: 100%;">
+                    <div class="project-bg"><img src="./assets/msd.png" alt="E-Book MSD" width="100%"></div>
                     <div class="card-body px-4 pt-3">
                       <h5 class="text-center">E-Book MSD</h5>
                       <p class="card-text">
@@ -185,8 +212,8 @@
                   </div>
             </div>
             <div class="container-content">
-                <div class="card-project pb-4" style="width: 23rem;">
-                    <div class="project-bg"><img src="./assets/elysias.png" alt="Elysias Hotel" width="380"></div>
+                <div class="card-project pb-4" style="width: 100%;">
+                    <div class="project-bg"><img src="./assets/elysias.png" alt="Elysias Hotel" width="100%"></div>
                     <div class="card-body px-4 pt-3">
                       <h5 class="text-center">Elysias Hotel</h5>
                       <p class="card-text">

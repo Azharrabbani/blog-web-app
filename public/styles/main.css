@@ -36,8 +36,8 @@ nav{
 
 .card-text{
     text-align: justify;
+    flex-grow: 1;
 }
-
 
 
 .image-bg{
@@ -95,11 +95,24 @@ nav{
 }
 
 .card-project{
-    background-color: #f0f9fff8;
+    background-image: linear-gradient(to bottom right, white, white, #d9f3faf8);
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
 
 
 .bg-content{
@@ -159,7 +172,8 @@ nav{
 }
 
 .content{
-    display: table-cell;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
 }
 
 .contact-box{
